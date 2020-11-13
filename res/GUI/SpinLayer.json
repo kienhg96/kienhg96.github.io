@@ -1,0 +1,1457 @@
+{
+  "ID": "d1f5671a-ea61-44d9-b256-f1aa9166aa33",
+  "Version": "3.10.0.0",
+  "Name": "SpinLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 4,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_play.png",
+              "Plist": "background.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 6,
+            "ActionTag": -250872927,
+            "Size": {
+              "X": 625.0,
+              "Y": 1112.0
+            },
+            "Name": "bg_play_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 312.5,
+              "Y": 556.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 312.5,
+            "RightMargin": 312.5,
+            "TopMargin": 556.0,
+            "BottomMargin": 556.0,
+            "Tag": 15,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Tag": 30,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "light_2.png",
+                      "Plist": "light.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -312.5,
+                    "RightMargin": -312.5,
+                    "TopMargin": -337.5,
+                    "BottomMargin": -337.5,
+                    "Tag": 16,
+                    "ActionTag": 282918323,
+                    "Size": {
+                      "X": 625.0,
+                      "Y": 675.0
+                    },
+                    "Name": "light_2_11",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1490355922,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "static_under",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Tag": 22,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "ring_3.png",
+                      "Plist": "spin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -297.5,
+                    "RightMargin": -297.5,
+                    "TopMargin": -297.5,
+                    "BottomMargin": -297.5,
+                    "Tag": 9,
+                    "ActionTag": -1940644842,
+                    "Size": {
+                      "X": 595.0,
+                      "Y": 595.0
+                    },
+                    "Name": "ring_3_5",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "ring_1.png",
+                      "Plist": "spin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -256.5,
+                    "RightMargin": -256.5,
+                    "TopMargin": -256.5,
+                    "BottomMargin": -256.5,
+                    "Tag": 12,
+                    "ActionTag": 81319286,
+                    "Size": {
+                      "X": 513.0,
+                      "Y": 513.0
+                    },
+                    "Name": "ring_1_8",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "ring_2.png",
+                      "Plist": "spin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -259.0,
+                    "RightMargin": -259.0,
+                    "TopMargin": -259.0,
+                    "BottomMargin": -259.0,
+                    "Tag": 11,
+                    "ActionTag": 893448038,
+                    "Size": {
+                      "X": 518.0,
+                      "Y": 518.0
+                    },
+                    "Name": "ring_2_7",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "ring_4.png",
+                      "Plist": "spin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -258.0,
+                    "RightMargin": -258.0,
+                    "TopMargin": -258.0,
+                    "BottomMargin": -258.0,
+                    "Tag": 10,
+                    "ActionTag": 389404746,
+                    "Size": {
+                      "X": 516.0,
+                      "Y": 516.0
+                    },
+                    "Name": "ring_4_6",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_light.png",
+                      "Plist": "spin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -17.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.01,
+                      "ScaleY": 1.01
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -261.0,
+                    "RightMargin": -261.0,
+                    "TopMargin": -228.5,
+                    "BottomMargin": -262.5,
+                    "Tag": 18,
+                    "ActionTag": 876168171,
+                    "Size": {
+                      "X": 522.0,
+                      "Y": 491.0
+                    },
+                    "Name": "spin_light_13",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_light_yellow.png",
+                      "Plist": "spin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -301.0,
+                    "RightMargin": -301.0,
+                    "TopMargin": -300.5,
+                    "BottomMargin": -300.5,
+                    "Tag": 14,
+                    "ActionTag": -589666250,
+                    "Size": {
+                      "X": 602.0,
+                      "Y": 601.0
+                    },
+                    "Name": "spin_light_yellow_10",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_bg.png",
+                      "Plist": "spin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -232.0,
+                    "RightMargin": -232.0,
+                    "TopMargin": -232.0,
+                    "BottomMargin": -232.0,
+                    "Tag": 7,
+                    "ActionTag": -796710497,
+                    "Size": {
+                      "X": 464.0,
+                      "Y": 464.0
+                    },
+                    "Name": "spin_bg_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_bg_2.png",
+                      "Plist": "spin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -232.0,
+                    "RightMargin": -232.0,
+                    "TopMargin": -232.0,
+                    "BottomMargin": -232.0,
+                    "Tag": 8,
+                    "ActionTag": 48699560,
+                    "Size": {
+                      "X": 464.0,
+                      "Y": 464.0
+                    },
+                    "Name": "spin_bg_2_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_fourth_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -108.9399,
+                      "Y": -112.489
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -184.4399,
+                    "RightMargin": 33.4399,
+                    "TopMargin": 37.989,
+                    "BottomMargin": -186.989,
+                    "Tag": 29,
+                    "ActionTag": -1043777030,
+                    "Size": {
+                      "X": 151.0,
+                      "Y": 149.0
+                    },
+                    "Name": "spin_fourth_prize_20",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_third_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -155.4981,
+                      "Y": -43.3566
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -210.9981,
+                    "RightMargin": 99.9981,
+                    "TopMargin": 1.3566,
+                    "BottomMargin": -85.3566,
+                    "Tag": 27,
+                    "ActionTag": 249593173,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 84.0
+                    },
+                    "Name": "spin_third_prize_18",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_second_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -116.5896,
+                      "Y": 111.4203
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -211.0896,
+                    "RightMargin": 22.0896,
+                    "TopMargin": -214.4203,
+                    "BottomMargin": 8.4203,
+                    "Tag": 26,
+                    "ActionTag": -1925269575,
+                    "Size": {
+                      "X": 189.0,
+                      "Y": 206.0
+                    },
+                    "Name": "spin_second_prize_17",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_first_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.8645,
+                      "Y": 150.1507
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -6.6355,
+                    "RightMargin": -86.3645,
+                    "TopMargin": -217.6507,
+                    "BottomMargin": 82.6507,
+                    "Tag": 25,
+                    "ActionTag": 113538061,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 135.0
+                    },
+                    "Name": "spin_first_prize_16",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_second_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -36.7544,
+                      "Y": -152.9755
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": -123.9997,
+                    "RotationSkewY": -123.9999,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -131.2544,
+                    "RightMargin": -57.7456,
+                    "TopMargin": 49.9755,
+                    "BottomMargin": -255.9755,
+                    "Tag": 31,
+                    "ActionTag": 1433533899,
+                    "Size": {
+                      "X": 189.0,
+                      "Y": 206.0
+                    },
+                    "Name": "spin_second_prize_17_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_first_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.8907,
+                      "Y": -149.1633
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": -17.0,
+                    "RotationSkewY": -17.0001,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -6.6093,
+                    "RightMargin": -86.3907,
+                    "TopMargin": 81.6633,
+                    "BottomMargin": -216.6633,
+                    "Tag": 32,
+                    "ActionTag": 987724668,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 135.0
+                    },
+                    "Name": "spin_first_prize_16_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_third_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 111.3947,
+                      "Y": -111.9678
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": -116.9998,
+                    "RotationSkewY": -117.0002,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 55.8947,
+                    "RightMargin": -166.8947,
+                    "TopMargin": 69.9678,
+                    "BottomMargin": -153.9678,
+                    "Tag": 33,
+                    "ActionTag": -2015057523,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 84.0
+                    },
+                    "Name": "spin_third_prize_18_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 17,
+                    "LabelText": "CHÚC MAY MẮN\nLẦN SAU",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Avenir Next.ttc",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 146.3371,
+                      "Y": -44.8863
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 17.0001,
+                    "RotationSkewY": 16.9991,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 76.8371,
+                    "RightMargin": -215.8371,
+                    "TopMargin": 21.8863,
+                    "BottomMargin": -67.8863,
+                    "Tag": 30,
+                    "ActionTag": -761253131,
+                    "Size": {
+                      "X": 139.0,
+                      "Y": 46.0
+                    },
+                    "Name": "Text_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 17,
+                    "LabelText": "CHÚC MAY MẮN\nLẦN SAU",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Avenir Next.ttc",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -152.8362,
+                      "Y": 38.577
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 17.001,
+                    "RotationSkewY": 16.9991,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -222.3362,
+                    "RightMargin": 83.3362,
+                    "TopMargin": -61.577,
+                    "BottomMargin": 15.577,
+                    "Tag": 34,
+                    "ActionTag": 578503624,
+                    "Size": {
+                      "X": 139.0,
+                      "Y": 46.0
+                    },
+                    "Name": "Text_1_0",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_fourth_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -44.0246,
+                      "Y": 142.4803
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 112.0,
+                    "RotationSkewY": 112.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -119.5246,
+                    "RightMargin": -31.4754,
+                    "TopMargin": -216.9803,
+                    "BottomMargin": 67.9803,
+                    "Tag": 35,
+                    "ActionTag": 1624112597,
+                    "Size": {
+                      "X": 151.0,
+                      "Y": 149.0
+                    },
+                    "Name": "spin_fourth_prize_20_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_third_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 112.6804,
+                      "Y": 116.1464
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 157.0,
+                    "RotationSkewY": 157.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 57.1804,
+                    "RightMargin": -168.1804,
+                    "TopMargin": -158.1464,
+                    "BottomMargin": 74.1464,
+                    "Tag": 36,
+                    "ActionTag": -1264362759,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 84.0
+                    },
+                    "Name": "spin_third_prize_18_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "spin_fourth_prize.png",
+                      "Plist": "prize.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 149.4957,
+                      "Y": 44.1233
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 212.0,
+                    "RotationSkewY": 212.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 73.9957,
+                    "RightMargin": -224.9957,
+                    "TopMargin": -118.6233,
+                    "BottomMargin": -30.3767,
+                    "Tag": 37,
+                    "ActionTag": 1741180161,
+                    "Size": {
+                      "X": 151.0,
+                      "Y": 149.0
+                    },
+                    "Name": "spin_fourth_prize_20_0_0",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 2139155266,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "dynamic",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Tag": 21,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "arrow.png",
+                      "Plist": "widget.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.3692,
+                      "ScaleY": 0.7323
+                    },
+                    "Position": {
+                      "X": -4.9393,
+                      "Y": 259.2091
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 18.9996,
+                    "RotationSkewY": 18.9996,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -36.3213,
+                    "RightMargin": -48.6787,
+                    "TopMargin": -288.3884,
+                    "BottomMargin": 179.3884,
+                    "Tag": 19,
+                    "ActionTag": 1071394119,
+                    "Size": {
+                      "X": 85.0,
+                      "Y": 109.0
+                    },
+                    "Name": "arrow_14",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "logo_coca.png",
+                      "Plist": "widget.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 8.0001,
+                      "Y": -1.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -88.9999,
+                    "RightMargin": -105.0001,
+                    "TopMargin": -95.0001,
+                    "BottomMargin": -98.9999,
+                    "Tag": 17,
+                    "ActionTag": 1541379688,
+                    "Size": {
+                      "X": 194.0,
+                      "Y": 194.0
+                    },
+                    "Name": "logo_coca_12",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -500280370,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "static",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 320177196,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "spin_node",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "spin_btn.png",
+              "Plist": "widget.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "spin_btn.png",
+              "Plist": "widget.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "spin_btn.png",
+              "Plist": "widget.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 377,
+            "Scale9Height": 114,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 120.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1079
+            },
+            "PreSize": {
+              "X": 0.6512,
+              "Y": 0.1223
+            },
+            "LeftMargin": 109.0,
+            "RightMargin": 109.0,
+            "TopMargin": 924.0,
+            "BottomMargin": 52.0,
+            "Tag": 23,
+            "ActionTag": 1695364380,
+            "Size": {
+              "X": 407.0,
+              "Y": 136.0
+            },
+            "Name": "btn_spin",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "title_game.png",
+              "Plist": "widget.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 1006.0004
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.9047
+            },
+            "PreSize": {
+              "X": 0.9376,
+              "Y": 0.0504
+            },
+            "LeftMargin": 19.5,
+            "RightMargin": 19.5,
+            "TopMargin": 77.9996,
+            "BottomMargin": 978.0004,
+            "Tag": 32,
+            "ActionTag": 1747167644,
+            "Size": {
+              "X": 586.0,
+              "Y": 56.0
+            },
+            "Name": "title_game_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 28,
+            "LabelText": "Số lượt quay còn lại: 3",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Avenir Next.ttc",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 960.2464
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8635
+            },
+            "PreSize": {
+              "X": 0.4752,
+              "Y": 0.0342
+            },
+            "LeftMargin": 164.0,
+            "RightMargin": 164.0,
+            "TopMargin": 132.7536,
+            "BottomMargin": 941.2464,
+            "Tag": 33,
+            "ActionTag": -66496704,
+            "Size": {
+              "X": 297.0,
+              "Y": 38.0
+            },
+            "Name": "txt_remain",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 625.0,
+          "Y": 1112.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Avenir Next.ttc",
+        "background.plist",
+        "background.png",
+        "light.plist",
+        "light.png",
+        "prize.plist",
+        "prize.png",
+        "spin.plist",
+        "spin.png",
+        "widget.plist",
+        "widget.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
