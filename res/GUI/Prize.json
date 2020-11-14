@@ -1,0 +1,1188 @@
+{
+  "ID": "14928907-c1b7-4db3-a6b6-53ab5dafb961",
+  "Version": "3.10.0.0",
+  "Name": "Prize",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 68,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_play.png",
+              "Plist": "background.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 69,
+            "ActionTag": 1820085528,
+            "Size": {
+              "X": 625.0,
+              "Y": 1112.0
+            },
+            "Name": "bg_play_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "text_congrat.png",
+              "Plist": "widget.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 900.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8094
+            },
+            "PreSize": {
+              "X": 0.9376,
+              "Y": 0.1142
+            },
+            "LeftMargin": 19.5,
+            "RightMargin": 19.5,
+            "TopMargin": 148.5,
+            "BottomMargin": 836.5,
+            "Tag": 70,
+            "ActionTag": -1878187584,
+            "Size": {
+              "X": 586.0,
+              "Y": 127.0
+            },
+            "Name": "text_congrat_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "ring_reward.png",
+              "Plist": "light.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 382.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3435
+            },
+            "PreSize": {
+              "X": 1.8016,
+              "Y": 0.9263
+            },
+            "LeftMargin": -250.5,
+            "RightMargin": -250.5,
+            "TopMargin": 215.0,
+            "BottomMargin": -133.0,
+            "Tag": 76,
+            "ActionTag": -1086937214,
+            "Size": {
+              "X": 1126.0,
+              "Y": 1030.0
+            },
+            "Name": "ring_reward_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "ring_reward_2.png",
+              "Plist": "light.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 382.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3435
+            },
+            "PreSize": {
+              "X": 1.6592,
+              "Y": 0.7905
+            },
+            "LeftMargin": -206.0,
+            "RightMargin": -206.0,
+            "TopMargin": 290.5,
+            "BottomMargin": -57.5,
+            "Tag": 77,
+            "ActionTag": -614258744,
+            "Size": {
+              "X": 1037.0,
+              "Y": 879.0
+            },
+            "Name": "ring_reward_2_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 101.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0908
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 625.0,
+            "TopMargin": 1011.0,
+            "BottomMargin": 101.0,
+            "Tag": 71,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "text_first_prize.png",
+                  "Plist": "widget.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 688.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 30.0,
+                "RightMargin": -595.0,
+                "TopMargin": -728.5,
+                "BottomMargin": 647.5,
+                "Tag": 75,
+                "ActionTag": 135223739,
+                "Size": {
+                  "X": 565.0,
+                  "Y": 81.0
+                },
+                "Name": "text_first_prize_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "prize_shadow.png",
+                  "Plist": "light.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 284.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -21.5,
+                "RightMargin": -646.5,
+                "TopMargin": -361.0,
+                "BottomMargin": 207.0,
+                "Tag": 79,
+                "ActionTag": -1879382552,
+                "Size": {
+                  "X": 668.0,
+                  "Y": 154.0
+                },
+                "Name": "prize_shadow_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "first_prize.png",
+                  "Plist": "prize.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5002,
+                  "Y": 400.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 32.5002,
+                "RightMargin": -592.5002,
+                "TopMargin": -577.0,
+                "BottomMargin": 223.0,
+                "Tag": 78,
+                "ActionTag": -1861124816,
+                "Size": {
+                  "X": 560.0,
+                  "Y": 354.0
+                },
+                "Name": "first_prize_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "12 Món tô chén đĩa sứ\nviền vàng 12K Minh Châu",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Avenir Next.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 132.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 11.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 87.0,
+                "RightMargin": -538.0,
+                "TopMargin": -181.0,
+                "BottomMargin": 83.0,
+                "Tag": 80,
+                "ActionTag": -1121997429,
+                "Size": {
+                  "X": 451.0,
+                  "Y": 98.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1799962753,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "prize_1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 101.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0908
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 625.0,
+            "TopMargin": 1011.0,
+            "BottomMargin": 101.0,
+            "Tag": 81,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "text_second_prize.png",
+                  "Plist": "widget.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 688.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 34.0,
+                "RightMargin": -591.0,
+                "TopMargin": -728.5,
+                "BottomMargin": 647.5,
+                "Tag": 82,
+                "ActionTag": -1448708552,
+                "Size": {
+                  "X": 557.0,
+                  "Y": 81.0
+                },
+                "Name": "text_first_prize_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "second_prize_shadow.png",
+                  "Plist": "light.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 284.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 21.0,
+                "RightMargin": -604.0,
+                "TopMargin": -360.5,
+                "BottomMargin": 207.5,
+                "Tag": 83,
+                "ActionTag": -217123746,
+                "Size": {
+                  "X": 583.0,
+                  "Y": 153.0
+                },
+                "Name": "prize_shadow_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "second_prize.png",
+                  "Plist": "prize.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.5059,
+                  "Y": 381.0044
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 3.5059,
+                "RightMargin": -717.5059,
+                "TopMargin": -633.0044,
+                "BottomMargin": 129.0044,
+                "Tag": 84,
+                "ActionTag": -1712562079,
+                "Size": {
+                  "X": 714.0,
+                  "Y": 504.0
+                },
+                "Name": "first_prize_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "Chảo nhôm chống dính\n24 cm Sunhouse",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Avenir Next.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 132.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 11.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 110.5,
+                "RightMargin": -514.5,
+                "TopMargin": -181.0,
+                "BottomMargin": 83.0,
+                "Tag": 85,
+                "ActionTag": 1096221300,
+                "Size": {
+                  "X": 404.0,
+                  "Y": 98.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1915897441,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "prize_2",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 101.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0908
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 625.0,
+            "TopMargin": 1011.0,
+            "BottomMargin": 101.0,
+            "Tag": 86,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "text_third_prize.png",
+                  "Plist": "widget.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 688.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 37.5,
+                "RightMargin": -587.5,
+                "TopMargin": -728.5,
+                "BottomMargin": 647.5,
+                "Tag": 87,
+                "ActionTag": -1466319467,
+                "Size": {
+                  "X": 550.0,
+                  "Y": 81.0
+                },
+                "Name": "text_first_prize_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "third_prize_shadow.png",
+                  "Plist": "light.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 324.5009,
+                  "Y": 284.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 70.5009,
+                "RightMargin": -578.5009,
+                "TopMargin": -343.0001,
+                "BottomMargin": 225.0001,
+                "Tag": 88,
+                "ActionTag": -345476449,
+                "Size": {
+                  "X": 508.0,
+                  "Y": 118.0
+                },
+                "Name": "prize_shadow_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "third_prize.png",
+                  "Plist": "prize.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 432.9976
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 194.0,
+                "RightMargin": -431.0,
+                "TopMargin": -623.4976,
+                "BottomMargin": 242.4976,
+                "Tag": 89,
+                "ActionTag": -252490908,
+                "Size": {
+                  "X": 237.0,
+                  "Y": 381.0
+                },
+                "Name": "first_prize_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "Ca đá nhựa 1L\nDuy Tân",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Avenir Next.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 132.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 11.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 188.0,
+                "RightMargin": -437.0,
+                "TopMargin": -181.0,
+                "BottomMargin": 83.0,
+                "Tag": 90,
+                "ActionTag": -2135669227,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 98.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1551411697,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "prize_3",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 101.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0908
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 625.0,
+            "TopMargin": 1011.0,
+            "BottomMargin": 101.0,
+            "Tag": 91,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "text_fourth_prize.png",
+                  "Plist": "widget.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 688.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 27.0,
+                "RightMargin": -598.0,
+                "TopMargin": -728.0,
+                "BottomMargin": 648.0,
+                "Tag": 92,
+                "ActionTag": 1930319906,
+                "Size": {
+                  "X": 571.0,
+                  "Y": 80.0
+                },
+                "Name": "text_first_prize_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "fourth_prize_shadow.png",
+                  "Plist": "light.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 331.4966,
+                  "Y": 246.4046
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 93.9966,
+                "RightMargin": -568.9966,
+                "TopMargin": -301.4046,
+                "BottomMargin": 191.4046,
+                "Tag": 93,
+                "ActionTag": 625987120,
+                "Size": {
+                  "X": 475.0,
+                  "Y": 110.0
+                },
+                "Name": "prize_shadow_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "fourth_prize.png",
+                  "Plist": "prize.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.4971,
+                  "Y": 413.4064
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 215.4971,
+                "RightMargin": -409.4971,
+                "TopMargin": -636.4064,
+                "BottomMargin": 190.4064,
+                "Tag": 94,
+                "ActionTag": -1934302746,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 446.0
+                },
+                "Name": "first_prize_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "Chai Fuze Tea\nChanh Sả 1L",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Avenir Next.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 132.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 11.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 193.0,
+                "RightMargin": -432.0,
+                "TopMargin": -181.0,
+                "BottomMargin": 83.0,
+                "Tag": 95,
+                "ActionTag": 1798784551,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 98.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 544321934,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "prize_4",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "next_btn.png",
+              "Plist": "widget.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "next_btn.png",
+              "Plist": "widget.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "next_btn.png",
+              "Plist": "widget.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 279,
+            "Scale9Height": 114,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.504,
+              "Y": 100.001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0899
+            },
+            "PreSize": {
+              "X": 0.4944,
+              "Y": 0.1223
+            },
+            "LeftMargin": 158.004,
+            "RightMargin": 157.996,
+            "TopMargin": 943.999,
+            "BottomMargin": 32.001,
+            "Tag": 183,
+            "ActionTag": -152889508,
+            "Size": {
+              "X": 309.0,
+              "Y": 136.0
+            },
+            "Name": "btn_next",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 625.0,
+          "Y": 1112.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Avenir Next.ttc",
+        "background.plist",
+        "background.png",
+        "light.plist",
+        "light.png",
+        "prize.plist",
+        "prize.png",
+        "widget.plist",
+        "widget.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

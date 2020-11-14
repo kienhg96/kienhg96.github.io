@@ -1,0 +1,556 @@
+{
+  "ID": "5adae798-5623-4a25-808f-0c748542fc23",
+  "Version": "3.10.0.0",
+  "Name": "Final",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 68,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_play.png",
+              "Plist": "background.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 69,
+            "ActionTag": 1820085528,
+            "Size": {
+              "X": 625.0,
+              "Y": 1112.0
+            },
+            "Name": "bg_play_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "end_btn.png",
+              "Plist": "widget.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "end_btn.png",
+              "Plist": "widget.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "end_btn.png",
+              "Plist": "widget.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 200,
+            "Scale9Height": 86,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 125.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1124
+            },
+            "PreSize": {
+              "X": 0.368,
+              "Y": 0.0971
+            },
+            "LeftMargin": 197.5,
+            "RightMargin": 197.5,
+            "TopMargin": 933.0,
+            "BottomMargin": 71.0,
+            "Tag": 268,
+            "ActionTag": -835977933,
+            "Size": {
+              "X": 230.0,
+              "Y": 108.0
+            },
+            "Name": "btn_end",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 625.0,
+            "TopMargin": 1112.0,
+            "Tag": 319,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ring_reward.png",
+                  "Plist": "light.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 382.0
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -250.5,
+                "RightMargin": -875.5,
+                "TopMargin": -897.0,
+                "BottomMargin": -133.0,
+                "Tag": 76,
+                "ActionTag": -1086937214,
+                "Size": {
+                  "X": 1126.0,
+                  "Y": 1030.0
+                },
+                "Alpha": 162,
+                "Name": "ring_reward_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ring_reward_2.png",
+                  "Plist": "light.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 382.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -206.0,
+                "RightMargin": -831.0,
+                "TopMargin": -821.5,
+                "BottomMargin": -57.5,
+                "Tag": 77,
+                "ActionTag": -614258744,
+                "Size": {
+                  "X": 1037.0,
+                  "Y": 879.0
+                },
+                "Alpha": 193,
+                "Name": "ring_reward_2_5",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "title_congrat.png",
+                  "Plist": "widget.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5001,
+                  "Y": 898.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 0.0001,
+                "RightMargin": -625.0001,
+                "TopMargin": -999.5,
+                "BottomMargin": 796.5,
+                "Tag": 267,
+                "ActionTag": -934686776,
+                "Size": {
+                  "X": 625.0,
+                  "Y": 203.0
+                },
+                "Name": "title_congrat_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 32,
+                "LabelText": "Chúng tôi sẽ liên hệ để tiến hành\ntrao giải thưởng thông qua thông tin\nbạn đã cung cấp.\n\nCám ơn bạn\nđã tham gia và đừng quên\ngiới thiệu cho bạn bè để cùng\nchia sẻ cơ hội trúng những\ngiải thưởng cực kỳ hấp dẫn nhé.",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Avenir Next.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 305.3035,
+                  "Y": 446.4682
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 21.3035,
+                "RightMargin": -589.3035,
+                "TopMargin": -644.4682,
+                "BottomMargin": 248.4682,
+                "Tag": 323,
+                "ActionTag": -216345567,
+                "Size": {
+                  "X": 568.0,
+                  "Y": 396.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 767090332,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "final_1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 625.0,
+            "TopMargin": 1112.0,
+            "Tag": 320,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ring_reward.png",
+                  "Plist": "light.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 322.4999,
+                  "Y": 490.0
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -240.5001,
+                "RightMargin": -885.4999,
+                "TopMargin": -1005.0,
+                "BottomMargin": -25.0,
+                "Tag": 321,
+                "ActionTag": -898617564,
+                "Size": {
+                  "X": 1126.0,
+                  "Y": 1030.0
+                },
+                "Alpha": 191,
+                "Name": "ring_reward_4_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ring_reward_2.png",
+                  "Plist": "light.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 322.4999,
+                  "Y": 490.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -196.0001,
+                "RightMargin": -840.9999,
+                "TopMargin": -929.5,
+                "BottomMargin": 50.5,
+                "Tag": 322,
+                "ActionTag": -280514572,
+                "Size": {
+                  "X": 1037.0,
+                  "Y": 879.0
+                },
+                "Alpha": 191,
+                "Name": "ring_reward_2_5_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 38,
+                "LabelText": "Cảm ơn bạn\nđã tham gia lắc may mắn.\nCòn nhiều giải thưởng\nđang chờ bạn, chúc bạn\nmay mắn trong lần tới nhé\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Avenir Next.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 303.439,
+                  "Y": 494.3635
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 61.439,
+                "RightMargin": -545.439,
+                "TopMargin": -650.3635,
+                "BottomMargin": 338.3635,
+                "Tag": 324,
+                "ActionTag": 268903585,
+                "Size": {
+                  "X": 484.0,
+                  "Y": 312.0
+                },
+                "Name": "Text_6",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -392821647,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "final_2",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 625.0,
+          "Y": 1112.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Avenir Next.ttc",
+        "background.plist",
+        "background.png",
+        "light.plist",
+        "light.png",
+        "widget.plist",
+        "widget.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
