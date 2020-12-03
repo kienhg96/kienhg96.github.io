@@ -1,0 +1,672 @@
+{
+  "ID": "cc52951c-6268-4324-ac2e-e9cabb35535e",
+  "Version": "3.10.0.0",
+  "Name": "Intro",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 33,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_form.png",
+              "Plist": "background.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 34,
+            "ActionTag": 820165297,
+            "Size": {
+              "X": 625.0,
+              "Y": 1112.0
+            },
+            "Name": "bg_form_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "banner.png",
+              "Plist": "background.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 1112.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.2572
+            },
+            "BottomMargin": 826.0,
+            "Tag": 35,
+            "ActionTag": 1860334365,
+            "Size": {
+              "X": 625.0,
+              "Y": 286.0
+            },
+            "Name": "banner_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 625.0,
+            "TopMargin": 1112.0,
+            "Tag": 310,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "next_btn.png",
+                  "Plist": "widget.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "next_btn.png",
+                  "Plist": "widget.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "next_btn.png",
+                  "Plist": "widget.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 279,
+                "Scale9Height": 114,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 125.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 158.0,
+                "RightMargin": -467.0,
+                "TopMargin": -193.0,
+                "BottomMargin": 57.0,
+                "Tag": 47,
+                "ActionTag": 850829948,
+                "Size": {
+                  "X": 309.0,
+                  "Y": 136.0
+                },
+                "Name": "btn_next",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "intro_prize.png",
+                  "Plist": "widget.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5001,
+                  "Y": 508.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 0.0001,
+                "RightMargin": -625.0001,
+                "TopMargin": -806.5,
+                "BottomMargin": 209.5,
+                "Tag": 96,
+                "ActionTag": -1048337995,
+                "Size": {
+                  "X": 625.0,
+                  "Y": 597.0
+                },
+                "Name": "intro_prize_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -767117258,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "intro_1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 625.0,
+            "TopMargin": 1112.0,
+            "Tag": 311,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "privacy.png",
+                  "Plist": "widget.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5001,
+                  "Y": 766.001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 0.0001,
+                "RightMargin": -625.0001,
+                "TopMargin": -808.501,
+                "BottomMargin": 723.501,
+                "Tag": 312,
+                "ActionTag": -1565635632,
+                "Size": {
+                  "X": 625.0,
+                  "Y": 85.0
+                },
+                "Name": "privacy_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 625,
+                  "Height": 1022
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 0.0009,
+                  "Y": 696.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 0.0009,
+                "RightMargin": -625.0009,
+                "TopMargin": -696.0002,
+                "BottomMargin": 246.0002,
+                "Tag": 313,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "privacy_1.png",
+                      "Plist": "widget.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0295,
+                      "Y": 412.4322
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.3472
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.5205
+                    },
+                    "LeftMargin": 0.0295,
+                    "RightMargin": -0.0295,
+                    "TopMargin": 154.5679,
+                    "BottomMargin": 412.4322,
+                    "Tag": 314,
+                    "ActionTag": 253223329,
+                    "Size": {
+                      "X": 625.0,
+                      "Y": 621.0
+                    },
+                    "Name": "privacy_1_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "privacy_2.png",
+                      "Plist": "widget.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 218.988
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.1843
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.3286
+                    },
+                    "TopMargin": 773.012,
+                    "BottomMargin": 22.988,
+                    "Tag": 315,
+                    "ActionTag": -291769802,
+                    "Size": {
+                      "X": 625.0,
+                      "Y": 392.0
+                    },
+                    "Name": "privacy_2_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1429138740,
+                "Size": {
+                  "X": 625.0,
+                  "Y": 450.0
+                },
+                "Name": "scroll",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "next_btn.png",
+                  "Plist": "widget.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "next_btn.png",
+                  "Plist": "widget.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "next_btn.png",
+                  "Plist": "widget.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 279,
+                "Scale9Height": 114,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 312.5,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 158.0,
+                "RightMargin": -467.0,
+                "TopMargin": -168.0,
+                "BottomMargin": 32.0,
+                "Tag": 318,
+                "ActionTag": 583899009,
+                "Size": {
+                  "X": 309.0,
+                  "Y": 136.0
+                },
+                "Name": "btn_next",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "agree.png",
+                  "Plist": "widget.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 314.5001,
+                  "Y": 198.9625
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 2.0001,
+                "RightMargin": -627.0001,
+                "TopMargin": -234.4625,
+                "BottomMargin": 163.4625,
+                "Tag": 128,
+                "ActionTag": -171467723,
+                "Size": {
+                  "X": 625.0,
+                  "Y": 71.0
+                },
+                "Name": "agree_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "checkbox.png",
+                  "Plist": "widget.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "checkbox.png",
+                  "Plist": "widget.plist"
+                },
+                "DisableBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "checkbox.png",
+                  "Plist": "widget.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "correct.png",
+                  "Plist": "widget.plist"
+                },
+                "NodeDisableFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "correct.png",
+                  "Plist": "widget.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.8873,
+                  "Y": 198.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 36.3873,
+                "RightMargin": -65.3873,
+                "TopMargin": -212.5,
+                "BottomMargin": 183.5,
+                "Tag": 317,
+                "ActionTag": 1928226808,
+                "Size": {
+                  "X": 29.0,
+                  "Y": 29.0
+                },
+                "Name": "checkbox",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": -908590132,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "intro_2",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 625.0,
+          "Y": 1112.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "background.plist",
+        "background.png",
+        "widget.plist",
+        "widget.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

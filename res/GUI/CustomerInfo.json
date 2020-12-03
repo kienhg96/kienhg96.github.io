@@ -1,0 +1,603 @@
+{
+  "ID": "53105ef9-5b38-4932-80a1-c5e92cc3baf6",
+  "Version": "3.10.0.0",
+  "Name": "CustomerInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 43,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "bg_form.png",
+              "Plist": "background.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 56,
+            "ActionTag": 405915646,
+            "Size": {
+              "X": 625.0,
+              "Y": 1112.0
+            },
+            "Name": "bg_form_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "next_btn.png",
+              "Plist": "widget.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "next_btn.png",
+              "Plist": "widget.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "next_btn.png",
+              "Plist": "widget.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 279,
+            "Scale9Height": 114,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 125.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1124
+            },
+            "PreSize": {
+              "X": 0.4944,
+              "Y": 0.1223
+            },
+            "LeftMargin": 158.0,
+            "RightMargin": 158.0,
+            "TopMargin": 919.0,
+            "BottomMargin": 57.0,
+            "Tag": 48,
+            "ActionTag": 1494961168,
+            "Size": {
+              "X": 309.0,
+              "Y": 136.0
+            },
+            "Name": "btn_next",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "title_information.png",
+              "Plist": "widget.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.5,
+              "Y": 948.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8525
+            },
+            "PreSize": {
+              "X": 1.0784,
+              "Y": 0.0755
+            },
+            "LeftMargin": -24.5,
+            "RightMargin": -24.5,
+            "TopMargin": 122.0,
+            "BottomMargin": 906.0,
+            "Tag": 57,
+            "ActionTag": -1568704355,
+            "Size": {
+              "X": 674.0,
+              "Y": 84.0
+            },
+            "Name": "title_information_9",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "text_input_information.png",
+              "Plist": "widget.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 147.0012,
+              "Y": 573.0879
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2352,
+              "Y": 0.5154
+            },
+            "PreSize": {
+              "X": 0.312,
+              "Y": 0.2437
+            },
+            "LeftMargin": 49.5012,
+            "RightMargin": 380.4988,
+            "TopMargin": 403.4121,
+            "BottomMargin": 437.5879,
+            "Tag": 58,
+            "ActionTag": -1423378003,
+            "Size": {
+              "X": 195.0,
+              "Y": 271.0
+            },
+            "Name": "text_input_information_10",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "input_form.png",
+              "Plist": "widget.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 418.2904,
+              "Y": 697.9917
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6693,
+              "Y": 0.6277
+            },
+            "PreSize": {
+              "X": 0.5088,
+              "Y": 0.045
+            },
+            "LeftMargin": 259.2904,
+            "RightMargin": 47.7096,
+            "TopMargin": 389.0083,
+            "BottomMargin": 672.9917,
+            "Tag": 60,
+            "ActionTag": -1346765932,
+            "Size": {
+              "X": 318.0,
+              "Y": 50.0
+            },
+            "Name": "input_form_12",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "input_form.png",
+              "Plist": "widget.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 418.2904,
+              "Y": 620.0366
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6693,
+              "Y": 0.5576
+            },
+            "PreSize": {
+              "X": 0.5088,
+              "Y": 0.045
+            },
+            "LeftMargin": 259.2904,
+            "RightMargin": 47.7096,
+            "TopMargin": 466.9634,
+            "BottomMargin": 595.0366,
+            "Tag": 61,
+            "ActionTag": 1793164189,
+            "Size": {
+              "X": 318.0,
+              "Y": 50.0
+            },
+            "Name": "input_form_12_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "input_form.png",
+              "Plist": "widget.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 418.288,
+              "Y": 536.247
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6693,
+              "Y": 0.4822
+            },
+            "PreSize": {
+              "X": 0.5088,
+              "Y": 0.045
+            },
+            "LeftMargin": 259.288,
+            "RightMargin": 47.712,
+            "TopMargin": 550.753,
+            "BottomMargin": 511.247,
+            "Tag": 62,
+            "ActionTag": 1350185887,
+            "Size": {
+              "X": 318.0,
+              "Y": 50.0
+            },
+            "Name": "input_form_12_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "input_form.png",
+              "Plist": "widget.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 418.2904,
+              "Y": 450.1414
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6693,
+              "Y": 0.4048
+            },
+            "PreSize": {
+              "X": 0.5088,
+              "Y": 0.045
+            },
+            "LeftMargin": 259.2904,
+            "RightMargin": 47.7096,
+            "TopMargin": 636.8586,
+            "BottomMargin": 425.1414,
+            "Tag": 63,
+            "ActionTag": 168270276,
+            "Size": {
+              "X": 318.0,
+              "Y": 50.0
+            },
+            "Name": "input_form_12_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Avenir Next.ttc",
+              "Plist": ""
+            },
+            "FontSize": 24,
+            "IsCustomSize": true,
+            "LabelText": "Hoàng Văn Kiên",
+            "PlaceHolderText": "",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 275.352,
+              "Y": 697.456
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4406,
+              "Y": 0.6272
+            },
+            "PreSize": {
+              "X": 0.464,
+              "Y": 0.0306
+            },
+            "LeftMargin": 275.352,
+            "RightMargin": 59.648,
+            "TopMargin": 397.544,
+            "BottomMargin": 680.456,
+            "Tag": 64,
+            "ActionTag": 2105131288,
+            "Size": {
+              "X": 290.0,
+              "Y": 34.0
+            },
+            "Name": "tf_name",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Avenir Next.ttc",
+              "Plist": ""
+            },
+            "FontSize": 24,
+            "IsCustomSize": true,
+            "LabelText": "Hoàng Văn Kiên",
+            "PlaceHolderText": "",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 275.352,
+              "Y": 619.1936
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4406,
+              "Y": 0.5568
+            },
+            "PreSize": {
+              "X": 0.464,
+              "Y": 0.0306
+            },
+            "LeftMargin": 275.352,
+            "RightMargin": 59.648,
+            "TopMargin": 475.8064,
+            "BottomMargin": 602.1936,
+            "Tag": 65,
+            "ActionTag": -1359817995,
+            "Size": {
+              "X": 290.0,
+              "Y": 34.0
+            },
+            "Name": "tf_phone",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Avenir Next.ttc",
+              "Plist": ""
+            },
+            "FontSize": 24,
+            "IsCustomSize": true,
+            "LabelText": "Hoàng Văn Kiên",
+            "PlaceHolderText": "",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 275.352,
+              "Y": 535.6668
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4406,
+              "Y": 0.4817
+            },
+            "PreSize": {
+              "X": 0.464,
+              "Y": 0.0306
+            },
+            "LeftMargin": 275.352,
+            "RightMargin": 59.648,
+            "TopMargin": 559.3332,
+            "BottomMargin": 518.6668,
+            "Tag": 66,
+            "ActionTag": 1405834092,
+            "Size": {
+              "X": 290.0,
+              "Y": 34.0
+            },
+            "Name": "tf_money",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Avenir Next.ttc",
+              "Plist": ""
+            },
+            "FontSize": 24,
+            "IsCustomSize": true,
+            "LabelText": "Hoàng Văn Kiên",
+            "PlaceHolderText": "",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 275.352,
+              "Y": 449.139
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4406,
+              "Y": 0.4039
+            },
+            "PreSize": {
+              "X": 0.464,
+              "Y": 0.0306
+            },
+            "LeftMargin": 275.352,
+            "RightMargin": 59.648,
+            "TopMargin": 645.861,
+            "BottomMargin": 432.139,
+            "Tag": 67,
+            "ActionTag": -1191514236,
+            "Size": {
+              "X": 290.0,
+              "Y": 34.0
+            },
+            "Name": "tf_bill",
+            "ctype": "TextFieldObjectData"
+          }
+        ],
+        "Size": {
+          "X": 625.0,
+          "Y": 1112.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Avenir Next.ttc",
+        "background.plist",
+        "background.png",
+        "widget.plist",
+        "widget.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

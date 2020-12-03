@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<project name="Javascript compress project" basedir="D:\Projects\LuckySpin\game" default="compile">
+<project name="Javascript compress project" basedir="F:\projects\lucky_spin\game" default="compile">
 
     <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
-             classpath="C:\Cocos\Cocos2d-x\cocos2d-x-3.10\tools\cocos2d-console\plugins\plugin_compile\build_web/bin/compiler-1.7.jar"/>
+             classpath="E:\Cocos\Cocos2d-x\cocos2d-x-3.10\tools\cocos2d-console\plugins\plugin_compile\build_web/bin/compiler-1.7.jar"/>
 
     <target name="compile">
         <jscomp compilationLevel="simple" 
                 warning="quiet"
                 debug="false" 
-                output="D:\Projects\LuckySpin\game\publish\html5/game.min.js"
+                output="F:\projects\lucky_spin\game\publish\html5/game.min.js"
                 languagein="ECMASCRIPT5"
                 
                 >
-            <sources dir="D:\Projects\LuckySpin\game\frameworks\cocos2d-html5">
+            <sources dir="F:\projects\lucky_spin\game\frameworks\cocos2d-html5">
                 <file name="CCBoot.js"/>
                 <file name="cocos2d/core/event-manager/CCEventHelper.js"/>
                 <file name="CCDebugger.js"/>
@@ -260,6 +260,12 @@
             <sources dir="${basedir}">
                 <file name="src/BaseLayer.js"/>
                 <file name="src/SpinLayer.js"/>
+                <file name="src/CustomerInfoLayer.js"/>
+                <file name="src/FinalLayer.js"/>
+                <file name="src/IntroLayer.js"/>
+                <file name="src/LoginLayer.js"/>
+                <file name="src/Network.js"/>
+                <file name="src/RewardLayer.js"/>
                 <file name="src/resource.js"/>
                 <file name="src/app.js"/>
                 <file name="main.js"/>

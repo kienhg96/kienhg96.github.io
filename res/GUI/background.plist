@@ -4,6 +4,19 @@
     <dict>
         <key>frames</key>
         <dict>
+            <key>banner.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1115},{625,286}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{625,286}}</string>
+                <key>sourceSize</key>
+                <string>{625,286}</string>
+            </dict>
             <key>bg_form.png</key>
             <dict>
                 <key>frame</key>
@@ -42,9 +55,9 @@
             <key>realTextureFileName</key>
             <string>background.png</string>
             <key>size</key>
-            <string>{1254,1114}</string>
+            <string>{1254,1402}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:04322cbab4b877a5f21b1b9d6941a15c:a4045658ac6917a1cbe5fcc5edde7007:0efa5fec0be417390841f237bfdb917e$</string>
+            <string>$TexturePacker:SmartUpdate:822c3bde16781e1a110cc8fad82bbdaa:dc21c8212bcd1ef62f1e92f53ba3fa95:0efa5fec0be417390841f237bfdb917e$</string>
             <key>textureFileName</key>
             <string>background.png</string>
         </dict>
