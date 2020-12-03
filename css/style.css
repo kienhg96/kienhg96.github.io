@@ -1,0 +1,281 @@
+.site-head {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: 50%;
+    background-size: cover;
+   	background: #fff;
+    color: #fff;
+    background-image: url(https://static.ghost.org/v1.0.0/images/blog-cover.jpg);
+}
+
+.site-mast {
+    justify-content: space-between;
+}
+
+.site-mast, .site-mast-right {
+    display: flex;
+    align-items: flex-start;
+}
+
+.site-banner {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10vw 0;
+    text-align: center;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 0;
+}
+
+.site-logo {
+    height: 80px;
+    margin-left: 10px;
+}
+
+.site-banner-title {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1.3em;
+}
+
+.site-banner-desc {
+    margin: 5px 0 0;
+    padding: 0;
+    font-size: 1.8rem;
+    line-height: 1.3em;
+    opacity: .7;
+}
+
+.site-nav-item {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    opacity: .7;
+}
+
+.site-nav-item:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: #fff;
+}
+
+.site-nav-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1em;
+    border-radius: 0.6rem;
+    opacity: .7;
+}
+
+.site-nav-button:hover {
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+}
+
+.site-nav-icon {
+    height: 15px;
+    margin: -5px 0 0;
+}
+
+.site-foot {
+    padding: 20px 0 40px;
+    color: hsla(0,0%,100%,.7);
+    font-size: 1rem;
+    background: #000;
+}
+
+.site-foot-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-foot-nav-right a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    opacity: .7;
+}
+
+.site-foot-nav-right a:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: #fff;
+}
+
+.content-rounded-both {
+    border-radius: 0px;
+}
+
+
+/*@media screen and (min-width: 600px) {*/
+	.pad-20-desktop {
+	    padding: 20px;
+	}
+
+	.content-rounded-both {
+        background-color: #E6E6E6;
+	    border-radius: 34px;
+	}
+/*}*/
+
+/*.content-rounded-both {
+    min-height: 34px;
+}*/
+
+.text-center {
+	text-align: center;
+}
+
+.main {
+	margin: 20px 0px;
+	font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+	max-width: 976px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.action-bar {
+    background: #ccc;
+    border-radius: 24px;
+    padding: 14px 18px;
+}
+
+.search-font {
+    order: 1;
+    margin-right: 10px;
+    flex: 1 1;
+    min-width: 250px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: .75rem;
+    border: 0;
+    border-radius: 13px;
+    padding: 10px 20px;
+    color: #959595;
+    background: #e0e0e0;
+    outline: none;
+}
+
+@media screen and (max-width: 599px) {
+	.search-font {
+		width: 100%;
+		min-width: 0px;
+	}
+}
+
+
+.search-font::placeholder {
+    color: #b6b6b6;
+}
+
+.font-container {
+    background: #fff;
+    padding: 10px 20px 10px 25px;
+    border-radius: 30px;
+    min-height: 100px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.font-title {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    color: #B3B3B3;
+}
+
+.font-sample {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.font-type {
+    height: 18px;
+}
+
+.style-dot {
+    fill: #BFBFBF;
+}
+
+.style-dot:hover {
+    fill: #6C6C6C;
+}
+
+.buffer1-right {
+    color: #BFBFBF;
+    font-size: 12px;
+}
+
+.paging {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.paging-item {
+	padding: 2px 4px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 25px;
+}
+
+.paging-item:not(.active) {
+	color: #6f6f6f;
+}
+.paging-item:hover:not(.active) {
+	color: #444;
+	text-decoration: none;
+}
+
+.paging-item.active {
+	border: 1px solid #ccc;
+	background: #aaa;
+	color: #eee;
+}
+
+.paging-item.active:hover {
+	text-decoration: none;
+}
+
+.img-content {
+	width: 100%;
+}
+
+.header-content {
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+
+.text-content {
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.post-content {
+	margin-top: 20px;
+	border: 1px solid #eee;
+	border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.2);
+    overflow: hidden;
+}

@@ -1,96 +1,146 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <title>Cocos2d-html5 Hello World test</title>
-    <link rel="icon" type="image/GIF" href="res/favicon.ico"/>
-
-    <meta name="viewport"
-        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
-
-    <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="format-detection" content="telephone=no">
-
-    <!-- force webkit on 360 -->
-    <meta name="renderer" content="webkit"/>
-    <meta name="force-rendering" content="webkit"/>
-    <!-- force edge on IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="msapplication-tap-highlight" content="no">
-
-    <!-- force full screen on some browser -->
-    <meta name="full-screen" content="yes"/>
-    <meta name="x5-fullscreen" content="true"/>
-    <meta name="360-fullscreen" content="true"/>
-
-    <!-- force screen orientation on some browser -->
-    <!-- <meta name="screen-orientation" content="portrait"/>
-    <meta name="x5-orientation" content="portrait"> -->
-
-    <meta name="browsermode" content="application">
-    <meta name="x5-page-mode" content="app">
-
-<style type="text/css">
-html {
-  -ms-touch-action: none;
-}
-
-body, canvas, div {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -khtml-user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-body {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  border: 0;
-  margin: 0;
-
-  cursor: default;
-  color: #888;
-  background-color: #333;
-
-  text-align: center;
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-
-  display: flex;
-  flex-direction: column;
-}
-
-#Cocos2dGameContainer {
-  position: absolute;
-  margin: 0;
-  overflow: hidden;
-  left: 0px;
-  top: 0px;
-
-  display: -webkit-box;
-  -webkit-box-orient: horizontal;
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
-}
-
-canvas {
-  background-color: rgba(0, 0, 0, 0);
-}
-</style>
+	<title>My Font</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body>
-<script src="res/loading.js"></script>
-<canvas id="gameCanvas" width="480" height="720"></canvas>
 
-<script cocos src="game.min.js"></script>
+<body>
+	<header class="site-head">
+		<div class="main-container">
+			<div class="site-mast">
+				<div class="site-mast-left">
+					<a aria-current="page" class="" href="/">
+						<img class="site-logo" src="img/logo.png" alt="Ghost &amp; Gatsby">
+					</a>
+				</div>
+				<div class="site-mast-right">
+					<a href="#" class="site-nav-item" target="_blank" rel="noopener noreferrer"><img class="site-nav-icon" src="img/icons/twitter.svg" alt="Twitter"></a>
+					<a href="#" class="site-nav-item" target="_blank" rel="noopener noreferrer"><img class="site-nav-icon" src="img/icons/facebook.svg" alt="Facebook"></a>
+				</div>
+			</div>
+			<div class="site-banner">
+				<h1 class="site-banner-title">Nice Fonts</h1>
+				<p class="site-banner-desc">Thoughts, stories and JAMstack</p>
+			</div>
+			<nav class="site-nav">
+				<div class="site-nav-left">
+					<a aria-current="page" class="site-nav-item" href="/">Fonts</a>
+				</div>
+				<div class="site-nav-right">
+					<a class="site-nav-button" href="/about">About</a>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="main main-container">
+		<div class="pad-20-desktop content-rounded-both">
+			<div class="action-bar">
+				<input placeholder="Type your own quick brown fox" type="text" name="find" class="search-font" />
+			</div>
+			<div class="font-container">
+				<h2 class="font-title">Organge Slices</h2>
+				<img style="height: 120px" class="font-sample" src="sample/orange-slices-outline.png">
+				<div class="font-info">
+					<svg viewBox="0 0 16 16" version="1.1" height="16" aria-hidden="true" class="clickable style-dot"><path d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"></path></svg>
+					<svg viewBox="0 0 16 16" version="1.1" height="16" aria-hidden="true" class="clickable style-dot active"><path d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"></path></svg>
+					<span class="buffer1-right show-on-hover"> Outline Regular</span>
+				</div>
+			</div>
+			<div class="font-container">
+				<h2 class="font-title">Organge Slices</h2>
+				<img style="height: 120px" class="font-sample" src="sample/orange-slices-outline.png">
+				<div class="font-info">
+					<svg viewBox="0 0 16 16" version="1.1" height="16" aria-hidden="true" class="clickable style-dot"><path d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"></path></svg>
+					<svg viewBox="0 0 16 16" version="1.1" height="16" aria-hidden="true" class="clickable style-dot active"><path d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"></path></svg>
+					<span class="buffer1-right show-on-hover"> Outline Regular</span>
+				</div>
+			</div>
+			<div class="font-container">
+				<h2 class="font-title">Organge Slices</h2>
+				<img style="height: 120px" class="font-sample" src="sample/orange-slices-outline.png">
+				<div class="font-info">
+					<svg viewBox="0 0 16 16" version="1.1" height="16" aria-hidden="true" class="clickable style-dot"><path d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"></path></svg>
+					<svg viewBox="0 0 16 16" version="1.1" height="16" aria-hidden="true" class="clickable style-dot active"><path d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"></path></svg>
+					<span class="buffer1-right show-on-hover"> Outline Regular</span>
+				</div>
+			</div>
+			<div class="paging">
+				<a href="#" class="paging-item active">1</a>
+				<a href="#" class="paging-item">2</a>
+				<a href="#" class="paging-item">3</a>
+				<a href="#" class="paging-item">4</a>
+				<a href="#" class="paging-item">5</a>
+			</div>
+		</div>
+		<div class="container" style="padding: 0px">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="post-content">
+						<img class="img-content" src="sample/ghost-headless-feature-image.png">
+						<h4 class="header-content">About Ghost</h4>
+						<p class="text-content">Build an API driven static-site with Gatsby.js and use Ghost as a completely decoupled headless CMS. Read more about how it works and how to use this starter theme here!</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="post-content">
+						<img class="img-content" src="sample/ghost-headless-feature-image.png">
+						<h4 class="header-content">About Ghost</h4>
+						<p class="text-content">Build an API driven static-site with Gatsby.js and use Ghost as a completely decoupled headless CMS. Read more about how it works and how to use this starter theme here!</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="post-content">
+						<img class="img-content" src="sample/ghost-headless-feature-image.png">
+						<h4 class="header-content">About Ghost</h4>
+						<p class="text-content">Build an API driven static-site with Gatsby.js and use Ghost as a completely decoupled headless CMS. Read more about how it works and how to use this starter theme here!</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="post-content">
+						<img class="img-content" src="sample/ghost-headless-feature-image.png">
+						<h4 class="header-content">About Ghost</h4>
+						<p class="text-content">Build an API driven static-site with Gatsby.js and use Ghost as a completely decoupled headless CMS. Read more about how it works and how to use this starter theme here!</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="post-content">
+						<img class="img-content" src="sample/ghost-headless-feature-image.png">
+						<h4 class="header-content">About Ghost</h4>
+						<p class="text-content">Build an API driven static-site with Gatsby.js and use Ghost as a completely decoupled headless CMS. Read more about how it works and how to use this starter theme here!</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="post-content">
+						<img class="img-content" src="sample/ghost-headless-feature-image.png">
+						<h4 class="header-content">About Ghost</h4>
+						<p class="text-content">Build an API driven static-site with Gatsby.js and use Ghost as a completely decoupled headless CMS. Read more about how it works and how to use this starter theme here!</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="post-content">
+						<img class="img-content" src="sample/ghost-headless-feature-image.png">
+						<h4 class="header-content">About Ghost</h4>
+						<p class="text-content">Build an API driven static-site with Gatsby.js and use Ghost as a completely decoupled headless CMS. Read more about how it works and how to use this starter theme here!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="site-foot">
+		<div class="site-foot-nav main-container">
+			<div class="site-foot-nav-left">© 2020 — Super awesome fonts!!!</div>
+			<div class="site-foot-nav-right">
+				<a href="#" class="site-nav-item" target="_blank" rel="noopener noreferrer"><img class="site-nav-icon" src="img/icons/twitter.svg" alt="Twitter"></a>
+				<a href="#" class="site-nav-item" target="_blank" rel="noopener noreferrer"><img class="site-nav-icon" src="img/icons/facebook.svg" alt="Facebook"></a>
+			</div>
+		</div>
+	</footer>
 </body>
+
 </html>
